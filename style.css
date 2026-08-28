@@ -1,40 +1,40 @@
- body {
+body{
     text-align: center;
- }
+}
 
- ul{
+ul{
     list-style: none;
- }
+}
 
- nav {
+nav{
     display: flex;
     justify-content: space-between;
     align-content: center;
     margin-left: 100px;
     margin-right: 100px;
- }
+}
 
- nav ul{
+nav ul{
     display: flex;
     gap: 20px;
- }
+}
 
- main{
+main{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     padding: 50px;
     margin: 50px;
- }
+}
 
- main section{
+main section{
     flex: 1;
     min-width: 280px;
     border: 2px solid black;
     padding: 20px;
 }
 
-form {
+form{
     display: flex;
     flex-direction: column;
     gap: 20px;
