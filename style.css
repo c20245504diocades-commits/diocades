@@ -28,7 +28,7 @@ main{
     padding: 50px;
     margin: 50px;
     max-width: 1200px;
-    background-color: aqua;
+    
 }
 
 main section{
@@ -45,7 +45,6 @@ form{
 }
 
 
-}
 @media (max-width: 600px) {
     nav {
         flex-direction: column;
@@ -87,3 +86,23 @@ form{
     }
 }
 
+nav a{
+    transition: color 0.5s ease;
+}
+
+nav a:hover{
+    color: pink;
+}
+
+button{
+    transition: background-color 1s ease;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border:none;
+    padding: 12px 24px;
+}
+button:hover{
+    background-color: bisque;
+    color:black;
+}
