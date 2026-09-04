@@ -23,6 +23,9 @@ console.log(greet("Maayong aga", ["Jom, bai, soy, tol, erp"]));
 
 const heading = document.querySelector("h1")
 heading.textContent = "Your father's name";
+heading.style.color = "purple";
+heading.style.backgroundColor = "yellow";
+heading.style.fontSize = "100px";
 console.log(heading);
 
 const contactsHeading = document.querySelector("#contacts h2");
