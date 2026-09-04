@@ -39,18 +39,18 @@ console.log(contactsHeading);
 const servicesHeading = document.querySelector("#services h2");
 console.log(servicesHeading);
 
-const toggleButton = document.querySelector(`switch`);
-const body = document.querySelector(`body`);
-let isOff = false;
+const toggleButton = document.querySelector ('#switch');
+ const body = document.querySelector ('body');
+ let isOff = false;
 
-toggleButton.addEventListener ("click", function() {
+ toggleButton.addEventListener ("click", function () {
     isOff = !isOff;
-
-    if (isOff){
+    
+    if (isOff) {
         body.style.backgroundColor = "black";
         body.style.color = "white";
-    } else{
-        body.style.backgroundColor = "white";
-        body.style.color = "black";
+    } else {
+        body.style.backgroundColor ="white";
+        body.style.color = "black"
     }
-})
+ })
