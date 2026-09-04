@@ -19,5 +19,13 @@ function greet(greetings, names = []){
     }
     return`${greetings} sa enyu ${names}`;
 } 
+console.log(greet("Maayong aga", ["Jom, bai, soy, tol, erp"]));
 
-console.log(greet("maayong aga", ["Jom, bai, soy, tol, erp"]));
+const heading = document.querySelector("h1");
+console.log(heading);
+
+const contactsHeading = document.querySelector("#contacts h2");
+console.log(contactsHeading);
+
+const servicesHeading = document.querySelector("#services h2");
+console.log(servicesHeading);
